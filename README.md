@@ -7,3 +7,32 @@
 |---------------|
 *****
 
+AuthController
+로그인
+POST /login
+Request: 사용자 ID와 비밀번호
+Response: 로그인 성공/실패 메시지
+CsvController
+주간 카테고리 데이터 조회
+GET /csv/data
+Request: referenceDate (날짜 문자열)
+Response: 주간 카테고리별 데이터 (JSON)
+EmotionController
+감정 데이터 수신
+
+POST /receiveEmotionData
+Request: 감정 데이터 리스트 (JSON)
+Response: 없음
+감정 데이터 조회
+
+GET /getEmotionData
+Response: 감정 데이터 JSON 파일 다운로드
+스트레스 데이터 수신
+
+POST /receiveStressData
+Request: 스트레스 데이터 리스트 (JSON)
+Response: 없음
+스트레스 데이터 조회
+
+GET /getStressData
+Response: 스트레스 데이터 JSON 파일 다운로드
