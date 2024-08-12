@@ -5,10 +5,8 @@
 ## 기능흐름도
 ![image](https://github.com/user-attachments/assets/1faadbe2-f064-47e5-b3bb-8ef504c1645f)
 |---------------|
-*****
 
 # API Documentation
-
 ## AuthController
 
 ### 로그인
